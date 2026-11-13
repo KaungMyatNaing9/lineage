@@ -1,0 +1,1658 @@
+{
+  "eval_set": "lineage-v1",
+  "summary": {
+    "n_pairs": 40,
+    "signals": {
+      "token_fingerprint": {
+        "full_auc": 1.0,
+        "full_plus_partial_auc": 1.0,
+        "full": {
+          "n": 21,
+          "min": 0.1348149679714657,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "partial_or_other": {
+          "n": 4,
+          "min": 0.16448879278534617,
+          "median": 0.4085532934243328,
+          "max": 0.6846334427679172
+        },
+        "independent": {
+          "n": 12,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.013706374205780567
+        },
+        "independent_at_or_above_0_30": [],
+        "full_below_0_60": [
+          "tomli_2.0.1_vs_graingert_fork"
+        ]
+      },
+      "structural": {
+        "full_auc": 1.0,
+        "full_plus_partial_auc": 0.996,
+        "full": {
+          "n": 21,
+          "min": 0.7512185829068151,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "partial_or_other": {
+          "n": 4,
+          "min": 0.11058950822879535,
+          "median": 0.3845163896955049,
+          "max": 0.657475871400586
+        },
+        "independent": {
+          "n": 10,
+          "min": 0.0,
+          "median": 0.012594227958478447,
+          "max": 0.1160205555645995
+        },
+        "independent_at_or_above_0_30": [],
+        "full_below_0_60": []
+      },
+      "rare_artifacts": {
+        "full_auc": 1.0,
+        "full_plus_partial_auc": 1.0,
+        "full": {
+          "n": 14,
+          "min": 0.6765601929747761,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "partial_or_other": {
+          "n": 10,
+          "min": 0.31248955632244957,
+          "median": 0.6408861499056593,
+          "max": 0.7999206380752802
+        },
+        "independent": {
+          "n": 12,
+          "min": 0.0,
+          "median": 0.00747551533857794,
+          "max": 0.05047898889733907
+        },
+        "independent_at_or_above_0_30": [],
+        "full_below_0_60": []
+      },
+      "test_cases": {
+        "full_auc": 1.0,
+        "full_plus_partial_auc": null,
+        "full": {
+          "n": 23,
+          "min": 0.6984672297756677,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "partial_or_other": {
+          "n": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        "independent": {
+          "n": 7,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.02797638880425199
+        },
+        "independent_at_or_above_0_30": [],
+        "full_below_0_60": []
+      }
+    }
+  },
+  "pairs": [
+    {
+      "id": "slug__exact",
+      "group": "synthetic",
+      "kind": "exact",
+      "note": "Synthetic exact of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__rename",
+      "group": "synthetic",
+      "kind": "rename",
+      "note": "Synthetic rename of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.5203121886080015,
+          "band": "substantial",
+          "containment": 1.0,
+          "coverage": 0.3516364631797056
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__reformat",
+      "group": "synthetic",
+      "kind": "reformat",
+      "note": "Synthetic reformat of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__reorder",
+      "group": "synthetic",
+      "kind": "reorder",
+      "note": "Synthetic reorder of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__combo",
+      "group": "synthetic",
+      "kind": "combo",
+      "note": "Synthetic combo of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.5203121886080015,
+          "band": "substantial",
+          "containment": 1.0,
+          "coverage": 0.3516364631797056
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__paraphrase",
+      "group": "synthetic",
+      "kind": "paraphrase",
+      "note": "Synthetic paraphrase of slug.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.8191046095364772,
+          "band": "high",
+          "containment": 0.8316412824121057,
+          "coverage": 0.8069402945643154
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.7999206380752802,
+          "band": "high",
+          "containment": 0.9999999999999993,
+          "coverage": 0.6665564490604567
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__exact",
+      "group": "synthetic",
+      "kind": "exact",
+      "note": "Synthetic exact of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999974,
+          "coverage": 0.9999999999999974
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__rename",
+      "group": "synthetic",
+      "kind": "rename",
+      "note": "Synthetic rename of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999974,
+          "coverage": 0.9999999999999974
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 0.6982379607819807,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 0.5363791075067906
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__reformat",
+      "group": "synthetic",
+      "kind": "reformat",
+      "note": "Synthetic reformat of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999974,
+          "coverage": 0.9999999999999974
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__reorder",
+      "group": "synthetic",
+      "kind": "reorder",
+      "note": "Synthetic reorder of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999974,
+          "coverage": 0.9999999999999974
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__combo",
+      "group": "synthetic",
+      "kind": "combo",
+      "note": "Synthetic combo of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999974,
+          "coverage": 0.9999999999999974
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 0.6982379607819807,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 0.5363791075067906
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a__paraphrase",
+      "group": "synthetic",
+      "kind": "paraphrase",
+      "note": "Synthetic paraphrase of json_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.8209267182387808,
+          "band": "high",
+          "containment": 0.8139856193736519,
+          "coverage": 0.8279872128800536
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0000000000000002,
+          "coverage": 1.0000000000000002
+        },
+        "rare_artifacts": {
+          "score": 0.3761774656524737,
+          "band": "substantial",
+          "containment": 0.9999999999999998,
+          "coverage": 0.2316616857418023
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__exact",
+      "group": "synthetic",
+      "kind": "exact",
+      "note": "Synthetic exact of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999998,
+          "coverage": 0.9999999999999998
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__rename",
+      "group": "synthetic",
+      "kind": "rename",
+      "note": "Synthetic rename of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.754289505802151,
+          "band": "high",
+          "containment": 0.9999999999999999,
+          "coverage": 0.60550947376249
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__reformat",
+      "group": "synthetic",
+      "kind": "reformat",
+      "note": "Synthetic reformat of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999998,
+          "coverage": 0.9999999999999998
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__reorder",
+      "group": "synthetic",
+      "kind": "reorder",
+      "note": "Synthetic reorder of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 0.9999999999999998
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__combo",
+      "group": "synthetic",
+      "kind": "combo",
+      "note": "Synthetic combo of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.754289505802151,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 0.60550947376249
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a__paraphrase",
+      "group": "synthetic",
+      "kind": "paraphrase",
+      "note": "Synthetic paraphrase of argv_a.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.000000000000002,
+          "coverage": 1.000000000000002
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "rare_artifacts": {
+          "score": 0.31248955632244957,
+          "band": "substantial",
+          "containment": 1.0,
+          "coverage": 0.18517785030203943
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__partial_70",
+      "group": "synthetic",
+      "kind": "partial_70",
+      "note": "First 70% of slug's top-level functions, identifiers left as written.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.6846334427679172,
+          "band": "high",
+          "containment": 1.0000000000000016,
+          "coverage": 0.5204887101650113
+        },
+        "structural": {
+          "score": 0.657475871400586,
+          "band": "high",
+          "containment": 0.9999999999999999,
+          "coverage": 0.48973113957102327
+        },
+        "rare_artifacts": {
+          "score": 0.8607826430841449,
+          "band": "high",
+          "containment": 0.9999999999999997,
+          "coverage": 0.7555912292404826
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__partial_40",
+      "group": "synthetic",
+      "kind": "partial_40",
+      "note": "First 40% of slug's top-level functions, identifiers left as written.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.3912569752722669,
+          "band": "substantial",
+          "containment": 1.0000000000000007,
+          "coverage": 0.2432066335383081
+        },
+        "structural": {
+          "score": 0.3208795719073132,
+          "band": "substantial",
+          "containment": 0.9999999999999999,
+          "coverage": 0.19109979638077554
+        },
+        "rare_artifacts": {
+          "score": 0.6765601929747761,
+          "band": "high",
+          "containment": 0.9999999999999992,
+          "coverage": 0.5112134223131168
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__partial_20",
+      "group": "synthetic",
+      "kind": "partial_20",
+      "note": "First 20% of slug's top-level functions, identifiers left as written.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.16448879278534617,
+          "band": "modest",
+          "containment": 1.0,
+          "coverage": 0.08961470359799881
+        },
+        "structural": {
+          "score": 0.11058950822879535,
+          "band": "modest",
+          "containment": 1.0,
+          "coverage": 0.05853122373906402
+        },
+        "rare_artifacts": {
+          "score": 0.48602645502669556,
+          "band": "substantial",
+          "containment": 1.0,
+          "coverage": 0.3210270461068496
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug__diluted",
+      "group": "synthetic",
+      "kind": "diluted",
+      "note": "Half of slug's functions plus an unrelated stats module appended in the same file.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.42584961157639867,
+          "band": "substantial",
+          "containment": 0.47677845536001967,
+          "coverage": 0.3847510169985242
+        },
+        "structural": {
+          "score": 0.4481532074836966,
+          "band": "substantial",
+          "containment": 0.5198762125894495,
+          "coverage": 0.39382099434498175
+        },
+        "rare_artifacts": {
+          "score": 0.7350828413783852,
+          "band": "high",
+          "containment": 0.77150488979569,
+          "coverage": 0.7019446681437708
+        },
+        "test_cases": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 1.0,
+          "coverage": 1.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a_vs_json_b",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Two JSON readers written separately.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.013706374205780567,
+          "band": "low",
+          "containment": 0.01446148871924887,
+          "coverage": 0.013026203872656598
+        },
+        "structural": {
+          "score": 0.07911150272323798,
+          "band": "low",
+          "containment": 0.0753277677324897,
+          "coverage": 0.08329545698962855
+        },
+        "rare_artifacts": {
+          "score": 0.023023172180590856,
+          "band": "low",
+          "containment": 0.020839917765900773,
+          "coverage": 0.02571740755147153
+        },
+        "test_cases": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "argv_a_vs_argv_b",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Two argument readers written separately.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.03913797189443728,
+          "band": "low",
+          "containment": 0.04690923017821492,
+          "coverage": 0.033575635184400175
+        },
+        "rare_artifacts": {
+          "score": 0.04089964754172948,
+          "band": "low",
+          "containment": 0.04274989290984244,
+          "coverage": 0.039202917747980355
+        },
+        "test_cases": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "ring_vs_queue",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Ring buffer versus linked queue.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.1160205555645995,
+          "band": "modest",
+          "containment": 0.16448879278534617,
+          "coverage": 0.08961470359799881
+        },
+        "rare_artifacts": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "test_cases": {
+          "score": null,
+          "band": "insufficient",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "stats_vs_units",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Summaries versus unit conversions.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": null,
+          "band": "insufficient",
+          "containment": null,
+          "coverage": null
+        },
+        "rare_artifacts": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "test_cases": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug_vs_stats",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Slug helper versus numeric summaries.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "rare_artifacts": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "test_cases": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "json_a_vs_argv_a",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "JSON reader versus argument reader.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.02503606122099415,
+          "band": "low",
+          "containment": 0.033575635184400175,
+          "coverage": 0.0199595745817208
+        },
+        "rare_artifacts": {
+          "score": 0.031059530533194647,
+          "band": "low",
+          "containment": 0.039202917747980355,
+          "coverage": 0.02571740755147153
+        },
+        "test_cases": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "ring_vs_slug",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Ring buffer versus slug helper.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "rare_artifacts": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "test_cases": {
+          "score": null,
+          "band": "insufficient",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "units_vs_json_b",
+      "group": "synthetic",
+      "kind": "independent",
+      "note": "Unit conversions versus the second JSON reader.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": null,
+          "band": "insufficient",
+          "containment": null,
+          "coverage": null
+        },
+        "rare_artifacts": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "test_cases": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "slug_vs_slug_js",
+      "group": "synthetic",
+      "kind": "cross_language",
+      "note": "Hand port of the slug helper from Python to JavaScript. Strings and the typo are kept.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.24365859237750567,
+          "band": "modest",
+          "containment": 0.2616491453695051,
+          "coverage": 0.22798287521786023
+        },
+        "rare_artifacts": {
+          "score": 0.5835343390293377,
+          "band": "substantial",
+          "containment": 0.5808848514833634,
+          "coverage": 0.5862081065993089
+        },
+        "test_cases": {
+          "score": 0.7620191011913089,
+          "band": "high",
+          "containment": 0.6827881749835905,
+          "coverage": 0.8620518309742966
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "timing_fully_formed_later",
+      "group": "synthetic",
+      "kind": "timing_later",
+      "note": "Rewrite file added in one commit 19 days later.",
+      "signals": {
+        "git_timing": {
+          "score": 1.0,
+          "band": "high",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "timing_predates",
+      "group": "synthetic",
+      "kind": "timing_earlier",
+      "note": "Rewrite file added months before the original file.",
+      "signals": {
+        "git_timing": {
+          "score": 0.0,
+          "band": "low",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_2.0.1_vs_cpython_3.11.9_tomllib",
+      "group": "real",
+      "kind": "vendored_copy",
+      "note": "CPython 3.11 Lib/tomllib is tomli 2.0.1 incorporated under the MIT license, with small adaptations.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.9944195593219143,
+          "band": "high",
+          "containment": 0.995212948868109,
+          "coverage": 0.9936274337576197
+        },
+        "structural": {
+          "score": 1.0,
+          "band": "high",
+          "containment": 0.9999999999999984,
+          "coverage": 0.9999999999999984
+        },
+        "rare_artifacts": {
+          "score": 0.9914518737465267,
+          "band": "high",
+          "containment": 0.9830486497749401,
+          "coverage": 0.9999999999999959
+        },
+        "test_cases": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_2.0.1_vs_tomli_2.0.2",
+      "group": "real",
+      "kind": "adjacent_release",
+      "note": "Adjacent releases of the same MIT library.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.9779230968762601,
+          "band": "high",
+          "containment": 0.9717933291096937,
+          "coverage": 0.9841306848162191
+        },
+        "structural": {
+          "score": 0.9842780415942234,
+          "band": "high",
+          "containment": 0.979146673834495,
+          "coverage": 0.9894634761328204
+        },
+        "rare_artifacts": {
+          "score": 0.9813957764308038,
+          "band": "high",
+          "containment": 0.9853238876939557,
+          "coverage": 0.9774988605720746
+        },
+        "test_cases": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_2.0.1_vs_graingert_fork",
+      "group": "real",
+      "kind": "same_lineage",
+      "note": "graingert/tomli is a fork that was behind hukkin/tomli and not ahead of tag 2.0.1.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.1348149679714657,
+          "band": "modest",
+          "containment": 0.141591732298117,
+          "coverage": 0.1286572641028447
+        },
+        "structural": {
+          "score": 0.7512185829068151,
+          "band": "high",
+          "containment": 0.8191481995368508,
+          "coverage": 0.6936926371417379
+        },
+        "rare_artifacts": {
+          "score": 0.7315483295092056,
+          "band": "high",
+          "containment": 0.8635109989487655,
+          "coverage": 0.6345723135163536
+        },
+        "test_cases": {
+          "score": 0.6984672297756677,
+          "band": "high",
+          "containment": 0.7371763756718672,
+          "coverage": 0.6636205041318394
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_vs_uiri_toml",
+      "group": "real",
+      "kind": "independent",
+      "note": "Independent MIT TOML libraries (tomli and uiri/toml).",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.007816301180426012,
+          "band": "low",
+          "containment": 0.005591053553280312,
+          "coverage": 0.012983921071919273
+        },
+        "rare_artifacts": {
+          "score": 0.012954080261521277,
+          "band": "low",
+          "containment": 0.013533451949933063,
+          "coverage": 0.012422278295786545
+        },
+        "test_cases": {
+          "score": 0.02797638880425199,
+          "band": "low",
+          "containment": 0.04405922759363365,
+          "coverage": 0.020495106931055263
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_vs_tomlkit",
+      "group": "real",
+      "kind": "independent",
+      "note": "Independent MIT TOML libraries (tomli and tomlkit).",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.017372154736530882,
+          "band": "low",
+          "containment": 0.010681862534474888,
+          "coverage": 0.04648971541753997
+        },
+        "rare_artifacts": {
+          "score": 0.012569364087732455,
+          "band": "low",
+          "containment": 0.008409482875262744,
+          "coverage": 0.024873355301554684
+        },
+        "test_cases": {
+          "score": 0.01696725517562522,
+          "band": "low",
+          "containment": 0.009757853496119894,
+          "coverage": 0.06496649815218894
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "tomli_vs_tomli_w",
+      "group": "real",
+      "kind": "independent",
+      "note": "Same author, MIT. tomli reads TOML and tomli-w writes it. Treated as independent code.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0016459009449755033,
+          "band": "low",
+          "containment": 0.003140061537184315,
+          "coverage": 0.001115231447054028
+        },
+        "structural": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "rare_artifacts": {
+          "score": 0.05047898889733907,
+          "band": "low",
+          "containment": 0.09582880691675101,
+          "coverage": 0.03426397786905231
+        },
+        "test_cases": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    },
+    {
+      "id": "iniconfig_vs_six",
+      "group": "real",
+      "kind": "independent",
+      "note": "Unrelated MIT utilities: an INI reader and a Python 2/3 compatibility layer.",
+      "signals": {
+        "token_fingerprint": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "structural": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "rare_artifacts": {
+          "score": 0.0023816665894234256,
+          "band": "low",
+          "containment": 0.0012515401651552686,
+          "coverage": 0.02455036287402788
+        },
+        "test_cases": {
+          "score": 0.0,
+          "band": "low",
+          "containment": 0.0,
+          "coverage": 0.0
+        },
+        "git_timing": {
+          "score": null,
+          "band": "unavailable",
+          "containment": null,
+          "coverage": null
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "tomli-2.0.1",
+      "url": "https://github.com/hukkin/tomli",
+      "requested_rev": "2.0.1",
+      "commit": "36ef51d6a5a55e0eca077b58695390d041061bd4",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "tomli-2.0.2",
+      "url": "https://github.com/hukkin/tomli",
+      "requested_rev": "2.0.2",
+      "commit": "3ec6775b118f2ae030d5b12c90939c7f65668e7e",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "cpython-3.11.9-tomllib",
+      "url": "https://github.com/python/cpython",
+      "requested_rev": "v3.11.9",
+      "commit": "de54cf5be371a6f5e2e9f208c38def5f81d3ef02",
+      "sparse": [
+        "Lib/tomllib",
+        "Lib/test/test_tomllib"
+      ],
+      "note": "Individual files downloaded. The CPython git history was not cloned.",
+      "license": "MIT SPDX on the vendored tomllib files (PSF contributor notice also present)"
+    },
+    {
+      "name": "graingert-tomli",
+      "url": "https://github.com/graingert/tomli",
+      "requested_rev": "master",
+      "commit": "c5cfe115fb8cc608416f1741f8b42cb5e1e0ab5a",
+      "sparse": [],
+      "license": "MIT (fork of hukkin/tomli)"
+    },
+    {
+      "name": "uiri-toml-0.10.2",
+      "url": "https://github.com/uiri/toml",
+      "requested_rev": "0.10.2",
+      "commit": "3f637dba5f68db63d4b30967fedda51c82459471",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "tomlkit-0.15.0",
+      "url": "https://github.com/sdispater/tomlkit",
+      "requested_rev": "0.15.0",
+      "commit": "8694e4d3323df68eb325bf3d5ab7caa66f8c206a",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "tomli-w-1.0.0",
+      "url": "https://github.com/hukkin/tomli-w",
+      "requested_rev": "1.0.0",
+      "commit": "19099125f32e7c491603e393263754262b356956",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "iniconfig-2.0.0",
+      "url": "https://github.com/pytest-dev/iniconfig",
+      "requested_rev": "v2.0.0",
+      "commit": "93f5930e668c0d1ddf4597e38dd0dea4e2665e7a",
+      "sparse": [],
+      "license": "MIT"
+    },
+    {
+      "name": "six-1.16.0",
+      "url": "https://github.com/benjaminp/six",
+      "requested_rev": "1.16.0",
+      "commit": "65486e4383f9f411da95937451205d3c7b61b9e1",
+      "sparse": [],
+      "license": "MIT"
+    }
+  ]
+}

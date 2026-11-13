@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lineage"
+version = "0.1.0"
+description = "Compare two codebases and report similarity evidence, signal by signal."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Kaung" }]
+keywords = ["similarity", "source-code", "fingerprints", "winnowing"]
+dependencies = ["Pygments>=2.17"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6", "mypy>=1.8"]
+
+[project.scripts]
+lineage = "lineage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+src = ["src", "tests", "eval"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "W"]
+
+[tool.mypy]
+python_version = "3.10"
+mypy_path = "src"
+packages = ["lineage"]
+warn_unused_ignores = true
+warn_redundant_casts = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+
+[[tool.mypy.overrides]]
+module = "pygments.*"
+ignore_missing_imports = true
+
+[tool.ruff.lint.per-file-ignores]
+"src/lineage/lexicon.py" = ["E501"]
+"eval/projects/**" = ["UP", "E501"]
